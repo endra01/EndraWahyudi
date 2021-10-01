@@ -1,12 +1,12 @@
 @media all and (max-width: 1000px) {
-    .lesson {
+    .column {
       width: 50%;
       margin-bottom: 50px;
     }
 }
 
 @media all and (max-width: 670px) {
-    .lesson {
+    .column {
       width: 100%;
     }
     
@@ -23,4 +23,60 @@
 .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+}
+
+@media all and (max-width: 1000px) {
+    .label {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .label {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .col { 
+      display: block;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .col { 
+      display: block;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .col1 { 
+      display: block;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .col1 { 
+      display: block;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Portfolio { 
+      display: block;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .Portfolio { 
+      display: block;
+      width: 100%;
+    }
 }
