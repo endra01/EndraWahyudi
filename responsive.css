@@ -1,82 +1,118 @@
 @media all and (max-width: 1000px) {
-    .column {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-}
+  .column {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 
-@media all and (max-width: 670px) {
-    .column {
-      width: 100%;
-    }
-    
-    footer {
-      text-align: center;
-    }
-}
-
-.top-wrapper h1 {
+  .top-wrapper h2 {
     font-size: 24px;
     line-height: 36px;
-}
-  
-.top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-}
+  }
 
-@media all and (max-width: 1000px) {
-    .label {
-      width: 50%;
-      margin-bottom: 50px;
-    }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .label span {
+    width: 5%;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%
+  }
+
+  .label1 span {
+    width: 5%;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%
+  }
+
+  .col { 
+    display: block;
+    width: 100%;
+  }
+
+  .col1-container { 
+    display: block;
+    width: 100%;
+  }
+
+  .col img { 
+    display: block;
+    width: 100%;
+  }
+
+  .col img { 
+    display: block;
+    width: 100%;
+  }
+
+  .Portfolio { 
+    display: block;
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 670px) {
-    .label {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-}
+  .column {
+    width: 100%;
+  }
 
-@media only screen and (max-width: 1000px) {
-    .col { 
-      display: block;
-      width: 100%;
-    }
-}
+  .top-wrapper h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 
-@media only screen and (max-width: 670px) {
-    .col { 
-      display: block;
-      width: 100%;
-    }
-}
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 36px;
+  }
+    
+  footer {
+    text-align: center;
+  }
 
-@media only screen and (max-width: 1000px) {
-    .col1 { 
-      display: block;
-      width: 100%;
-    }
-}
+  .label, span {
+    width: 5%;
+    margin-bottom: 5px;
+    display:block;
+    width: 100%;
+  }
 
-@media only screen and (max-width: 670px) {
-    .col1 { 
-      display: block;
-      width: 100%;
-    }
-}
+  .label1, span {
+    width: 50%;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
 
-@media only screen and (max-width: 1000px) {
-    .Portfolio { 
-      display: block;
-      width: 100%;
-    }
-}
+  .col { 
+    display: block;
+    width: 100%;
+  }
 
-@media only screen and (max-width: 670px) {
-    .Portfolio { 
-      display: block;
-      width: 100%;
-    }
+ .col1-container { 
+    display: block;
+    width: 100%;
+  }
+
+ .col img { 
+    display: block;
+    width: 100%;
+  }
+
+  .col img { 
+    display: block;
+    width: 100%;
+  }
+
+  .Portfolio { 
+    display: block;
+    width: 100%;
+  }
 }
